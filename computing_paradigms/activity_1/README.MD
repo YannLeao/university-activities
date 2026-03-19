@@ -37,7 +37,7 @@ Depois, o programa deve imprimir:
 
 1. Navegue até a pasta da Atividade 1
 ```bash
-cd atividade_1
+cd activity_1
 ```
 
 2. Abra o terminal e entre no PostgreSQL:
