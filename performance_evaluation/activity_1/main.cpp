@@ -87,13 +87,20 @@ void printPrimes(const std::vector<int>& primes) {
 }
 
 int main() {
-    int N = readInput();
+    while (true) {
+        int N = readInput();
 
-    std::vector<int> primes = generatePrimes(N);
+        std::vector<int> primes = generatePrimes(N);
 
-    std::cout << "\nValue of N: " << N << std::endl;
-    printPrimes(primes);
-    std::cout << "Total primes: " << primes.size() << std::endl;
+        std::cout << "\nValue of N: " << N << std::endl;
+        printPrimes(primes);
+        std::cout << "Total primes: " << primes.size() << std::endl;
+
+        if (shouldExit()) {
+            std::cout << "Exiting program\n";
+            break;
+        }
+    }
 
     return 0;
 }
