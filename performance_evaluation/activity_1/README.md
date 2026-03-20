@@ -1,36 +1,38 @@
-# Activity 1 — Prime Numbers (Sieve of Eratosthenes)
+# Activity 1 — Arrays and Strings Exercises
 
-## Description
+This activity consists of a set of programming exercises focused on **arrays (vectors)** and **strings**.
 
-This program was developed as part of the **Performance Evaluation** course.
+The goal is to reinforce fundamental programming skills while also providing a basis for later discussions on **performance evaluation** and algorithm efficiency.
 
-The objective is to compute all prime numbers in the interval from 1 to \( N \), using an efficient algorithm.
+## Problem Statement
+The full list of exercises is available in [Questions PDF](questoes.pdf).
 
-## Features
+The exercises are divided into two main parts:
 
-- Reads an integer \( N > 0 \) from user input
-- Handles invalid input (non-numeric or \( N < 1 \))
-- Computes prime numbers up to \( N \)
-- Prints:
-    - The value of \( N \)
-    - The list of prime numbers (separated by `-`)
-    - The total number of primes found
+### Part I — Arrays (Vectors)
 
-## Algorithm
+- Sum of elements
+- Counting even numbers
+- Finding the maximum value
+- Filtering elements greater than a value
+- Summing even numbers
+- Searching for elements
+- Reversing arrays (without built-in functions)
+- Counting occurrences
+- Summing positive values
+- Product of elements
 
-The program uses the **Sieve of Eratosthenes**, which:
+### Part II — Strings
 
-- Eliminates multiples of each prime number
-- Runs in approximately **O(N log log N)** time
-- Is significantly faster than naive primality testing
+- Counting vowels
+- Counting characters (without built-in length functions)
+- Palindrome verification
+- Counting character occurrences
+- Character replacement
+- Uppercase and lowercase analysis
+- Removing spaces
+- Accessing the first character
 
-## How to Run
 
-### Using CMake
 
-```bash
-mkdir build
-cd build
-cmake ..
-make
-./PrimeSieve
+This activity was developed in collaboration with [Maria Clara](https://github.com/MClaraFerreira5)
