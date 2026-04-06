@@ -30,3 +30,22 @@ Set of exercises focused on **arrays and strings**, covering fundamental operati
 
 The activity emphasizes problem-solving and serves as a foundation for later performance analysis.
 Developed in collaboration with [Maria Clara](https://github.com/MClaraFerreira5)
+
+### 3. [Activity 3 — Sorting Algorithm Comparison](activity_3)
+
+Implementation of a program in **C++** that compares the performance of two sorting algorithms.
+
+The program:
+
+- Reads integers (including negative values) from a file `arq.txt`
+- Stores the values in a suitable data structure (e.g., vector)
+- Sorts the data using:
+    - A **slow algorithm** (e.g., Bubble Sort, Insertion Sort)
+    - A **fast algorithm** (e.g., Quick Sort, Merge Sort)
+- Measures execution time for each algorithm
+- Repeats each sorting process **five times**
+- Computes and displays the **average execution time**
+- Saves the sorted output to `arq-ordenado.txt`
+
+The goal is to analyze and compare algorithm efficiency in practice, reinforcing concepts of computational cost and 
+performance evaluation.
