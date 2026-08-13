@@ -1,4 +1,4 @@
-# University Projects
+# Denini's classes
 
 This repository contains projects from different courses, taught by 
 [Professor Gabriel Denini](https://github.com/denini08):
@@ -7,7 +7,7 @@ This repository contains projects from different courses, taught by
 
 - [Computing Paradigms](computing_paradigms)
 - [Performance Evaluation](performance_evaluation)
-- [Database](database)
+- [Compilers](https://github.com/YannLeao/compilers-course)
 
 
-Each folder contains independent projects and builds.
+Each folder contains independent activities by course.
